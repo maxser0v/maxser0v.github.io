@@ -22,6 +22,10 @@
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </head> 
 
@@ -61,7 +65,7 @@
         <div class="row">
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
-                    <div class="section-inner shadow-sm rounded">
+                    <div class="section-inner shadow-sm rounded" data-aos="fade-up">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
                             <p>Since my childhood I was curious about computers and technologies. I started to learn programming when I was 12 because it was insanely interesting to me. At the age of 14 I got acquainted with Python and all its capabilities to develop high-speed web applications, as well as various complex programms. Along with that I learnt HTML, CSS, and JavaScript to be able to build appealing websites. Now, I  create powerful web applications, complex AI systems, and just simple websites for small businesses.</p>
@@ -75,8 +79,20 @@
                         <h2 class="heading">Web Dev Projects</h2>
                         <div class="content">    
                                                
-                            
-                            <div class="item row">
+                            <div class="item row" data-aos="flip-right">
+                                <a class="col-md-4 col-12" href="http://certificadoc-app.com/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/certificadoc.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="http://certificadoc-app.com/" target="_blank">CertificaDoc - Web app for local banks</a></h3>
+                                    <p class="mb-2">Development of the custom web application for local banks for signing PDF documents like statements and invoices.<br>
+                                        <b>Technologies used:</b> Djagno, Bootstrap 5, JS.</p>
+                                    <p><a class="more-link" href="http://certificadoc-app.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+        
+                            <div class="item row" data-aos="flip-right">
                                 <a class="col-md-4 col-12" href="https://aura-orenburg.ru/" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/aura.png" alt="project name" />
                                 </a>
@@ -88,7 +104,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                             <div class="item row">
+                             <div class="item row" data-aos="flip-right">
                                 <a class="col-md-4 col-12" href="https://projectcurio.com/" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/project-curio.png" alt="project name" />
                                 </a>
@@ -100,7 +116,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
+                            <div class="item row" data-aos="flip-right">
                                 <a class="col-md-4 col-12" href="https://armadahotel.ru/" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/armada.png" alt="project name" />
                                 </a>
@@ -295,16 +311,19 @@
     <!-- <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script> -->
     <!-- custom js -->
     <script type="text/javascript" src="../assets/js/main.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script type="text/javascript">
         var typed = new Typed(".auto-type", {
-            strings: ["Python Developer"],
-            typeSpeed: 150,
-            backSpeed: 150,
+            strings: ["Python Developer", "Website Developer", "Web Applications", "Desktop Applicaitons"],
+            typeSpeed: 100,
+            backSpeed: 30,
             loop: true
         })
-    </script>          
+    </script>        
+    <script>
+        AOS.init();
+    </script>  
 </body>
 </html> 
 
