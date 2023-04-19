@@ -28,6 +28,9 @@
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
     
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head> 
 
 <body>
@@ -41,11 +44,10 @@
 		                <h1 class="name">Макс Серов</h1>
 		                <h2 class="desc"><span class="auto-type"></span></h2>   
 		                <ul class="social list-inline">
-		                    <li class="list-inline-item"><a href="https://t.me/maxser0v"><i class="fa-brands fa-telegram"></i></a></li>
-		                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-discord"></i></a></li>
-		                    <li class="list-inline-item"><a href="https://github.com/RediIVIideR"><i class="fab fa-github-alt"></i></a></li>    
-		                    <!-- <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>    -->
-		                    <!-- <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li> -->                
+                            <li class="list-inline-item"><a href="https://t.me/maxser0v"><i class="fa-brands fa-telegram"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://discord.com/users/650696515496706071"><i class="fa-brands fa-discord"></i></a></li>
+                            <li class="list-inline-item"><a href="https://wa.me/79991053321"><i class="fa-brands fa-whatsapp"></i></a></li>
+		                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
 		                </ul> 
 		            </div><!--//profile-->
 			    </div><!--//col-->
@@ -79,8 +81,32 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Веб проекты</h2>
                         <div class="content">    
-                                               
                             
+                            <div class="item row" data-aos="flip-right">
+                                <a class="col-md-4 col-12" href="http://certificadoc-app.com/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/certificadoc.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="http://certificadoc-app.com/" target="_blank">CertificaDoc - Веб-сайт для местных банков</a></h3>
+                                    <p class="mb-2">Разработка пользовательского веб-приложения для местных банков для подписания PDF-документов, таких как выписки и счета.<br>
+                                        <b>Используемые технологии:</b> Django, Bootstrap 5, JS. Настройка базы данных и VPS.</p>
+                                    <p><a class="more-link" href="http://certificadoc-app.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row" data-aos="flip-right">
+                                <a class="col-md-4 col-12" href="http://hpp-kimovsk.ru/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/hpp.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="http://hpp-kimovsk.ru/" target="_blank">HPP Kimovsk - Веб-сайт для сельскохозяйственной компании</a></h3>
+                                    <p class="mb-2">Для аграрной компании был создан сайт с анимацией на заказ с использованием передовых технологий, обеспечивающий постоянный поток клиентов. Использование админ-панели позволяет компании публиковать самую актуальную информацию о своих продуктах. Сайт занимает высокие позиции в поиске Google и Яндекс, что показывает потрясающую SEO-оптимизацию.<br>
+                                        <b>Используемые технологии:</b> Django, Bootstrap 5, JS. Настройка базы данных и VPS.</p>
+                                    <p><a class="more-link" href="http://hpp-kimovsk.ru/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://aura-orenburg.ru/" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/projects/aura.png" alt="project name" />
@@ -133,6 +159,17 @@
                                 <p><a class="more-link" href="https://pyxl.ai/" target="_blank"><i class="fas fa-external-link-alt"></i>Подробнее</a></p>
                                 
                             </div><!--//item-->
+
+                            <div class="item" data-aos="flip-right">
+                                    <h3 class="title"><a href="https://payhip.com/b/KWZto" target="_blank">SpeechyText - Приложение для конвертации речи в текст</a></h3>
+                                <p class="summary">Устали печатать тонны текста? <br> Вы получите полноценное приложение Windows для преобразования речи в текст в реальном времени на любом языке. Приложение использует Google Speech-to-Text API, поэтому вам потребуется ключ учетных данных от Google. Приложение позволяет набирать распознанный текст в любом месте Windows. Его можно использовать для ввода текста в Word, веб-браузере или Excel.
+
+                                    <br>
+                                <b>Используемые технологии:</b> Python библиотеки, Pyinstaller, Google Speech-to-Text API
+                                </p>
+                                <p><a class="more-link" href="https://payhip.com/b/KWZto" target="_blank"><i class="fas fa-external-link-alt"></i>More</a></p>
+                                
+                            </div><!--//item-->
                             
                             
                         </div><!--//content-->  
@@ -171,6 +208,20 @@
                                 <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Местонахождение:</span>Никосия, Кипр</li>
                                 <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:maxim.serov4@gmail.com">maxim.serov4@gmail.com</a></li>
                                 <li><i class="fas fa-link"></i><span class="sr-only">Веб-сайт:</span><a class="website" href="#">Макс Портфолио</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+
+
+                <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading ">Средства оплаты</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li>Банковский перевод в любой валюте</li>
+                                <li>PayPal</li>
+                                <li>Любая криптовалюта</li>
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
