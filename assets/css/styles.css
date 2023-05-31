@@ -827,3 +827,11 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #54ba4e;
+  border-radius: 20px;
+}
