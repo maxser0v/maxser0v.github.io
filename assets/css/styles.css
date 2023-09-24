@@ -827,3 +827,27 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #54ba4e;
+  border-radius: 20px;
+}
+.technologies-used {
+  list-style: none;
+  padding-left: 0;
+}
+.technologies-used li {
+  position: relative;
+  padding-left: 1.5em;  /* space to preserve indentation on wrap */
+}
+.technologies-used li:before {
+  content: '';  /* placeholder for the SVG */
+  position: absolute;
+  left: 0;  /* place the SVG at the start of the padding */
+  width: 1em;
+  height: 1em;
+  background: url("../images/tick.svg") no-repeat;
+}
